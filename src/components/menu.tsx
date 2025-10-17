@@ -156,7 +156,7 @@ const MenuLevelComponent: React.FC<MenuLevelComponentProps> = ({
             </Button>
           )}
           {showBackButton ? (
-            <DrawerTitle className="text-base font-medium">{level.title}</DrawerTitle>
+            <DrawerTitle className="text-base font-medium">Back</DrawerTitle>
           ) : (
             <VisuallyHidden>
               <DrawerTitle>{level.title}</DrawerTitle>
